@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday</title>
+<style>
+    body {
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: white;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 60px;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6;
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff1a75, 0 0 40px #ff1a75;
+        }
+    }
+
+    .balloons {
+        font-size: 40px;
+        margin-top: 20px;
+        animation: float 3s infinite ease-in-out;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+    }
+</style>
+</head>
+
+<body>
+    <h1>🎉 Happy Birthday to Me! 🎂</h1>
+    <p>Wishing myself a day filled with happiness and joy!</p>
+    <div class="balloons">🎈🎈🎈</div>
+</body>
+</html>
